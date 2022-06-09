@@ -1,7 +1,7 @@
 import sqlite3
 
 #Establishing the connection
-conn = sqlite3.connect('test_database')
+conn = sqlite3.connect('test_database.db')
 
 with conn:
     
@@ -26,7 +26,7 @@ for i in fileList:
         files_txt.append(i)
 
 
-conn = sqlite3.connect('test_database')
+conn = sqlite3.connect('test_database.db')
 
 with conn:
     
