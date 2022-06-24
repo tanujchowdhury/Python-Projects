@@ -56,3 +56,5 @@ l1.grid(row=0, column=1, padx=(20,20), pady=(50,0), columnspan=2, sticky=N, ipad
 
 l2 = Label(win, bg="white")
 l2.grid(row=1, column=1, padx=(20,20), pady=(10,0), columnspan=2, sticky=N, ipadx=100)
+
+win.mainloop()
